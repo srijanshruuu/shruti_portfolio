@@ -184,6 +184,19 @@
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
+        .interactive-link {
+  color: #ff4d4d;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.interactive-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
     </style>
 </head>
 <body>
@@ -299,9 +312,16 @@
     <textarea placeholder="Your Message" required></textarea><br>
     <button type="submit">Send</button>
   </form>
-  <p>Email: <a href="mailto:S4shruuu@gmail.com">S4shruuu@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/shruti-srijan-2a73b31a5/" target="_blank">shruti-srijan</a></p>
-  <p><a href="resume.pdf" download>📄 Download My Resume</a></p>
+<p>
+  <i class="fas fa-envelope"></i>
+  Email: <a href="mailto:shruti.2314519256@mujonline.edu.in" class="interactive-link">shruti.2314519256@mujonline.edu.in</a>
+</p>
+
+<p>
+  <i class="fas fa-file-download"></i>
+  <a href="resume.pdf" download class="interactive-link">Download My Resume</a>
+</p>
+
 </div>
 
     <script>
